@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Beej Bhandar | Seeds, Pesticides &amp; Fertilizers</title>
+    <meta name="description" content="Quality seeds, pesticides, fertilizers and crop protection products for farmers from Amit Beej Bhandar.">
+    <meta name="theme-color" content="#155d2a">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <!-- =========================
+         TOP BAR
+    ========================== -->
+    <div class="top-bar">
+        <div class="container top-content">
+            <div class="top-left">
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                    +91 XXXXX XXXXX
+                </span>
+                <span>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@amitbeejbhandar.com
+                </span>
+            </div>
+            <div class="top-right">
+                <span>
+                    <i class="fa-solid fa-truck-fast"></i>
+                    Quality Agricultural Products
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- =========================
+         MIDDLE HEADER
+    ========================== -->
+    <header class="main-header">
+        <div class="container header-content">
+            <!-- Logo -->
+            <a href="home.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>AMIT BEEJ BHANDAR</h1>
+                    <span>Your Trusted Agriculture Partner</span>
+                </div>
+            </a>
+            <!-- Search -->
+            <div class="search-box">
+                <input type="text" id="searchInput"
+                    placeholder="Search seeds, pesticides, fertilizers...">
+                <button id="searchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <!-- Header Icons -->
+            <div class="header-actions">
+                <a href="wishlist.html" class="header-icon">
+                    <i class="fa-solid fa-heart"></i>
+                    <span class="icon-label">Wishlist</span>
+                    <span class="count" id="wishlistCount">0</span>
+                </a>
+                <a href="cart.html" class="header-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="icon-label">Cart</span>
+                    <span class="count" id="cartCount">0</span>
+                </a>
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- =========================
+         NAVIGATION BAR
+    ========================== -->
+    <nav class="navbar">
+        <div class="container nav-content">
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li>
+                    <a href="home.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="categories.html">Categories</a>
+                </li>
+                <li>
+                    <a href="brands.html">Brands</a>
+                </li>
+                <li>
+                    <a href="speciality-products.html">Specialty Products</a>
+                </li>
+                <li>
+                    <a href="seeds.html">Seeds</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- =========================
+         HERO IMAGE SLIDER
+    ========================== -->
+    <section class="hero-slider">
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <img src="/images/hero slide 1.avif" alt="Green crop field" fetchpriority="high">
+            <div class="slide-overlay"></div>
+            <div class="container hero-content">
+                <span class="hero-tag">WELCOME TO AMIT BEEJ BHANDAR</span>
+                <p class="hero-hindi">किसान का भरोसेमंद साथी</p>
+                <h2>
+                    Growing Better Crops,
+                    <span>Building Better Futures</span>
+                </h2>
+                <p>
+                    Quality seeds, crop protection products and agricultural
+                    solutions for every farmer.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/html/categories.html#categories" class="btn btn-outline">
+                        View Categories
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide">
+            <img src="/images/hero slide 2.avif"
+                alt="Green Farm">
+            <div class="slide-overlay"></div>
+            <div class="container hero-content">
+                <span class="hero-tag">QUALITY YOU CAN TRUST</span>
+                <p class="hero-hindi">हर फसल के लिए सही उत्पाद</p>
+                <h2>
+                    The Right Products
+                    <span>For Every Crop</span>
+                </h2>
+                <p>
+                    Discover quality seeds, pesticides, fertilizers and
+                    specialty agricultural products from trusted brands.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/html/brands.html" class="btn btn-primary">
+                        Explore Brands
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="/html/home.html#featured-products" class="btn btn-outline">
+                        Featured Products
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide">
+            <img src="/images/hero slide 3.avif"
+                alt="Farmer Agriculture">
+            <div class="slide-overlay"></div>
+            <div class="container hero-content">
+                <span class="hero-tag">YOUR AGRICULTURE PARTNER</span>
+                <p class="hero-hindi">अच्छी फसल, बेहतर कमाई</p>
+                <h2>
+                    Strong Crops Start
+                    <span>With The Right Choice</span>
+                </h2>
+                <p>
+                    Serving farmers with reliable agricultural products and
+                    solutions for better productivity.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/html/home.html#enquiry" class="btn btn-primary">
+                        Send Enquiry
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                    <a href="/html/seeds.html" class="btn btn-outline">
+                        Explore Seeds
+                    </a>
+                </div>
+            </div>
+        </div>
+        <aside class="hero-card" aria-label="Get help choosing a product">
+            <h3>Not sure what to buy?</h3>
+            <p>Tell us your crop and the problem. We will suggest the right product.</p>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener" class="btn btn-wa"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+            <a href="#enquiry" class="btn btn-light">Send an enquiry</a>
+        </aside>
+        <button class="slider-btn prev" id="prevSlide" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="slider-btn next" id="nextSlide" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+        <!-- Slider Dots -->
+        <div class="slider-dots" id="sliderDots">
+            <button aria-label="Go to slide" class="dot active" data-slide="0"></button>
+            <button aria-label="Go to slide" class="dot" data-slide="1"></button>
+            <button aria-label="Go to slide" class="dot" data-slide="2"></button>
+        </div>
+    </section>
+    <section class="trust-strip">
+        <div class="container trust-grid">
+            <div><i class="fa-solid fa-certificate"></i><b>Genuine products</b><span>Sourced from trusted brands</span></div>
+            <div><i class="fa-solid fa-user-check"></i><b>Farmer guidance</b><span>Ask before you buy</span></div>
+            <div><i class="fa-solid fa-boxes-stacked"></i><b>Full crop range</b><span>Seeds to crop protection</span></div>
+            <div><i class="fa-solid fa-headset"></i><b>Quick response</b><span>Send an enquiry anytime</span></div>
+        </div>
+    </section>
+    <div class="marquee" aria-label="Crops we serve"><div class="marquee-track"><span><i class="fa-solid fa-seedling"></i>Wheat (गेहूं)</span><span><i class="fa-solid fa-seedling"></i>Paddy (धान)</span><span><i class="fa-solid fa-seedling"></i>Mustard (सरसों)</span><span><i class="fa-solid fa-seedling"></i>Potato (आलू)</span><span><i class="fa-solid fa-seedling"></i>Sugarcane (गन्ना)</span><span><i class="fa-solid fa-seedling"></i>Maize (मक्का)</span><span><i class="fa-solid fa-seedling"></i>Vegetables (सब्ज़ी)</span><span><i class="fa-solid fa-seedling"></i>Pulses (दालें)</span><span><i class="fa-solid fa-seedling"></i>Wheat (गेहूं)</span><span><i class="fa-solid fa-seedling"></i>Paddy (धान)</span><span><i class="fa-solid fa-seedling"></i>Mustard (सरसों)</span><span><i class="fa-solid fa-seedling"></i>Potato (आलू)</span><span><i class="fa-solid fa-seedling"></i>Sugarcane (गन्ना)</span><span><i class="fa-solid fa-seedling"></i>Maize (मक्का)</span><span><i class="fa-solid fa-seedling"></i>Vegetables (सब्ज़ी)</span><span><i class="fa-solid fa-seedling"></i>Pulses (दालें)</span></div></div>
+    <!-- =========================
+         CATEGORY SECTION
+    ========================== -->
+    <section class="categories section-padding" id="categories">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-tag">EXPLORE OUR RANGE</span>
+                <h2>Shop By <span>Category</span></h2>
+                <p>
+                    Find the right agricultural products for your farming needs.
+                </p>
+            </div>
+            <div class="category-grid">
+                <a href="/html/categories.html#seeds" class="category-card">
+                    <div class="category-image">
+                        <img loading="lazy" src="/images/hero seeds 1.jfif"
+                            alt="Seeds">
+                    </div>
+                    <div class="category-info">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <h3>Seeds</h3>
+                        <span>Explore Now <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="/html/categories.html#pesticides" class="category-card">
+                    <div class="category-image">
+                        <img loading="lazy" src="/images/hero pestisides 2.avif"
+                            alt="Pesticides">
+                    </div>
+                    <div class="category-info">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Pesticides</h3>
+                        <span>Explore Now <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="/html/categories.html#fertilizers" class="category-card">
+                    <div class="category-image">
+                        <img loading="lazy" src="/images/hero category 1.avif"
+                            alt="Fertilizers">
+                    </div>
+                    <div class="category-info">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <h3>Fertilizers</h3>
+                        <span>Explore Now <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="/html/categories.html#herbicides" class="category-card">
+                    <div class="category-image">
+                        <img loading="lazy" src="/images/hero category 2.avif"
+                            alt="Herbicides">
+                    </div>
+                    <div class="category-info">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-wheat-awn"></i>
+                        </div>
+                        <h3>Herbicides</h3>
+                        <span>Explore Now <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="/html/categories.html#fungicides" class="category-card">
+                    <div class="category-image">
+                        <img loading="lazy" src="/images/fungicides.avif"
+                            alt="Fungicides">
+                    </div>
+                    <div class="category-info">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-bug-slash"></i>
+                        </div>
+                        <h3>Fungicides</h3>
+                        <span>Explore Now <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="/html/categories.html#specialty" class="category-card">
+                    <div class="category-image">
+                        <img loading="lazy" src="/images/cpw.avif"
+                            alt="Specialty Products">
+                    </div>
+                    <div class="category-info">
+                        <div class="category-icon">
+                            <i class="fa-solid fa-flask"></i>
+                        </div>
+                        <h3>Specialty Products</h3>
+                        <span>Explore Now <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- ========================
+         FEATURED PRODUCTS
+    ========================== -->
+    <section class="featured-products section-padding" id="featured-products">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-tag">POPULAR PRODUCTS</span>
+                <h2>Featured <span>Products</span></h2>
+                <p>
+                    Quality agricultural solutions selected for better crop growth.
+                </p>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-name="Crop Protection Pro">
+                    <div class="product-badge">Best Seller</div>
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <div class="product-image">
+                        <img loading="lazy" src="/images/fratured.jfif"
+                            alt="Crop Protection Product">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <small>(00 Reviews)</small>
+                        </div>
+                        <h3>Crop Protection Pro</h3>
+                        <p class="chemical-name">
+                            <strong>Chemical:</strong> NAME
+                        </p>
+                        <div class="product-price">
+                            <span class="current-price">₹--</span>
+                            <span class="old-price">₹--</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="buy-now-btn">
+                                Buy Now
+                            </button>
+                            <button class="add-cart-btn">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card" data-name="Power Growth">
+                    <div class="product-badge new">New</div>
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <div class="product-image">
+                        <img loading="lazy" src="/images/review.avif"
+                            alt="Plant Growth Product">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </span>
+                            <small>(94 Reviews)</small>
+                        </div>
+                        <h3>Power Growth</h3>
+                        <p class="chemical-name">
+                            <strong>Chemical:</strong> NAME
+                        </p>
+                        <div class="product-price">
+                            <span class="current-price">₹--</span>
+                            <span class="old-price">₹--</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="buy-now-btn">
+                                Buy Now
+                            </button>
+                            <button class="add-cart-btn">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card" data-name="Seed Guard Plus">
+                    <div class="product-badge">Popular</div>
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <div class="product-image">
+                        <img loading="lazy" src="/images/price.avif"
+                            alt="Seed Treatment Product">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </span>
+                            <small>(76 Reviews)</small>
+                        </div>
+                        <h3>Seed Guard Plus</h3>
+                        <p class="chemical-name">
+                            <strong>Chemical:</strong> NAME
+                        </p>
+                        <div class="product-price">
+                            <span class="current-price">₹--</span>
+                            <span class="old-price">₹--</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="buy-now-btn">
+                                Buy Now
+                            </button>
+                            <button class="add-cart-btn">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card" data-name="Weed Control Max">
+                    <button class="wishlist-btn">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <div class="product-image">
+                        <img loading="lazy" src="/images/weeds.jfif"
+                            alt="Weed Control Product">
+                    </div>
+                    <div class="product-details">
+                        <div class="product-rating">
+                            <span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </span>
+                            <small>(63 Reviews)</small>
+                        </div>
+                        <h3>Weed Control Max</h3>
+                        <p class="chemical-name">
+                            <strong>Chemical:</strong> NAME
+                        </p>
+                        <div class="product-price">
+                            <span class="current-price">₹--</span>
+                            <span class="old-price">₹--</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="buy-now-btn">
+                                Buy Now
+                            </button>
+                            <button class="add-cart-btn">
+                                <i class="fa-solid fa-cart-plus"></i>
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="no-results" id="noResults" hidden>No product found. Try another name, or send us an enquiry.</p>
+            <div class="center-button">
+                <a href="/html/speciality-products.html" class="btn btn-primary">
+                    View All Products
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+         MAKING PROCESS
+    ========================== -->
+    <section class="making-process section-padding">
+        <div class="container">
+            <div class="process-content">
+                <div class="process-text">
+                    <span class="section-tag">OUR QUALITY PROCESS</span>
+                    <h2>
+                        From Quality Selection
+                        <span>To Your Farm</span>
+                    </h2>
+                    <p>
+                        Every product is selected and handled with attention
+                        to quality so farmers can get reliable agricultural solutions.
+                    </p>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">01</div>
+                            <div>
+                                <h3>Quality Selection</h3>
+                                <p>
+                                    Carefully selected products from trusted
+                                    manufacturers and brands.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">02</div>
+                            <div>
+                                <h3>Safe Handling</h3>
+                                <p>
+                                    Products are stored and handled with
+                                    proper attention and care.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">03</div>
+                            <div>
+                                <h3>Ready For Farmers</h3>
+                                <p>
+                                    Reliable agricultural products delivered
+                                    for your farming requirements.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="process-gallery">
+                    <div class="gallery-main">
+                        <img loading="lazy" src="/images/home.avif"
+                            alt="Agriculture Production Process">
+                    </div>
+                    <div class="gallery-small gallery-top">
+                        <img loading="lazy" src="/images/gallery.avif"
+                            alt="Agriculture Worker">
+                    </div>
+                    <div class="gallery-small gallery-bottom">
+                        <img loading="lazy" src="/images/plant.avif"
+                            alt="Plant Production">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+         ENQUIRY SECTION
+    ========================== -->
+    <section class="enquiry-section section-padding" id="enquiry">
+        <div class="container">
+            <div class="enquiry-wrapper">
+                <!-- Enquiry Image -->
+                <div class="enquiry-image">
+                    <img loading="lazy" src="/images/enquiry.avif"
+                        alt="Agricultural Products">
+                    <div class="enquiry-image-overlay">
+                        <span>
+                            <i class="fa-solid fa-seedling"></i>
+                        </span>
+                        <h3>Need The Right Product?</h3>
+                        <p>
+                            Send us your enquiry and our team will help you
+                            find the right agricultural solution.
+                        </p>
+                    </div>
+                </div>
+                <!-- Enquiry Form -->
+                <div class="enquiry-form-container">
+                    <span class="section-tag">CONTACT US</span>
+                    <h2>
+                        Send An <span>Enquiry</span>
+                    </h2>
+                    <p>
+                        Fill in your details and we will get back to you soon.
+                    </p>
+                    <form id="enquiryForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone"
+                                    placeholder="Enter your phone number"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="product">Product Category</label>
+                            <select id="product" required>
+                                <option value="">Select a category</option>
+                                <option>Seeds</option>
+                                <option>Pesticides</option>
+                                <option>Fertilizers</option>
+                                <option>Herbicides</option>
+                                <option>Fungicides</option>
+                                <option>Specialty Products</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message"
+                                placeholder="Write your enquiry here..."
+                                rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            Send Enquiry
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- About -->
+                <div class="footer-column footer-about">
+                    <a href="/html/home.html" class="footer-logo">
+                        <i class="fa-solid fa-seedling"></i>
+                        <div>
+                            <h2>
+                                AMIT BEEJ BHANDAR
+                            </h2>
+                            <span>
+                                Your Agriculture Partner
+                            </span>
+                        </div>
+                    </a>
+                    <p>
+                        Providing quality seeds, crop protection
+                        products, fertilizers and agricultural
+                        solutions for farmers.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3>
+                        Quick Links
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="/html/home.html">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/about.html">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/categories.html">
+                                Categories
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/brands.html">
+                                Our Brands
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Categories -->
+                <div class="footer-column">
+                    <h3>
+                        Our Categories
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="/html/seeds.html">
+                                Seeds
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/categories.html#pesticides">
+                                Pesticides
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/categories.html#fertilizers">
+                                Fertilizers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/categories.html#herbicides">
+                                Herbicides
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/html/speciality-products.html">
+                                Specialty Products
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Contact -->
+                <div class="footer-column footer-contact">
+                    <h3>
+                        Contact Us
+                    </h3>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Your Shop Address, India
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        +91 XXXXX XXXXX
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@amitbeejbhandar.com
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>
+                    © 2026 Amit Beej Bhandar.
+                    All Rights Reserved.
+                </p>
+                <p>
+                    Designed for Better Agriculture
+                    <i class="fa-solid fa-heart"></i>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a class="whatsapp-float" href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!-- SCROLL TOP -->
+    <button class="scroll-top" id="scrollTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+</body>
+</html>
